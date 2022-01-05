@@ -4,7 +4,7 @@ import string
 import pandas as pd 
 import matplotlib.pyplot as plt
 
-pdfFileObj = open('Chow_test.pdf','rb')
+pdfFileObj = open('sample_file.pdf','rb')
 pdfReader = PyPDF2.PdfFileReader(pdfFileObj)
 num_pages = pdfReader.numPages
 count = 0
